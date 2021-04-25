@@ -13,7 +13,6 @@ import adafruit_st7789
 import terminalio
 from adafruit_display_text import label
 
-import neopixel
 from secrets import secrets
 import adafruit_bmp280
 
