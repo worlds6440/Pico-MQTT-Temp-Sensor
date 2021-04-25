@@ -137,8 +137,8 @@ while True:
     mqtt_client = MQTT.MQTT(
         broker=secrets["broker"],
         port=secrets["port"],
-        username=secrets["aio_username"],
-        password=secrets["aio_key"]
+        username=secrets["mqtt_username"],
+        password=secrets["mqtt_key"]
     )
  
     # Setup the callback methods above
